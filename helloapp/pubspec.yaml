@@ -1,0 +1,77 @@
+name: helloapp
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  iconsax: ^0.0.8
+  material_design_icons_flutter: ^7.0.7296
+  sizer: ^2.0.15
+  lottie: ^2.4.0
+  local_auth: ^2.1.6
+  shared_preferences: ^2.0.20
+  uuid: ^3.0.7
+  image_picker: ^1.0.0
+  image_cropper: ^4.0.1
+
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+  cloud_firestore: ^4.8.2
+  firebase_storage: ^11.2.4
+
+  zego_uikit_prebuilt_call: ^3.10.3
+  zego_uikit_signaling_plugin: ^2.2.0
+
+  fluttertoast: ^8.2.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "images/helloapp.png"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/anim/
+    
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+
+
